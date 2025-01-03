@@ -1,0 +1,12 @@
+
+.admin-page {
+  display: flex;
+  margin-top: 20%; 
+  height: calc(100vh - 60px);
+
+}
+@media (max-width: 480px) {
+  .admin-page {
+    padding: 5px;
+  }
+}

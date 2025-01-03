@@ -1,0 +1,48 @@
+.dashboard {
+    padding: 20px;
+    margin-left: 250px; 
+  }
+  
+  .dashboard h2 {
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .dashboard-table th,
+  .dashboard-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .dashboard-table th {
+    background-color: #f4f4f4;
+  }
+  
+  .status-overdue {
+    background-color: #f8d7da;
+  }
+  
+  .status-due-today {
+    background-color: #fff3cd;
+  }
+  
+  .status-normal {
+    background-color: #ffffff;
+  }
+  
+  .dashboard-table td {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .dashboard-table td:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  

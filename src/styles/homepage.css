@@ -1,0 +1,36 @@
+body{
+    background-size: cover;
+    background-color: rgb(198, 209, 218);
+    background-repeat: no-repeat;
+    background-position: center;
+
+  justify-content: center;
+  align-items: center;
+}
+  .home-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .content-container {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px 40px;
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  
